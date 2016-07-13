@@ -1,3 +1,17 @@
-fn main() {
-    println!("This will eventually be an entry point for Rusty Tool Box ( a rust implemented busybox)");
-}
+use std::env;
+
+    fn main() {
+
+        for argument in env::args()
+        {
+
+            println!("{}", argument);
+
+
+        }
+
+
+
+
+    }
+
